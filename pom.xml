@@ -3,27 +3,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>indi.qiaolin</groupId>
+	<groupId>indi</groupId>
 	<artifactId>test-spring-boot</artifactId>
 	<version>1.0</version>
 
 	<name>springboot-ureport</name>
 	<description>测试ureport集成springboot</description>
-	<url>https://github.com/liqiaolin520/springboot-ureport</url>
+	<url>https://github.com/brken/springboot-ureport</url>
 
 	<licenses>
 		<license>
 			<name>The MIT License (MIT)</name>
-			<url>https://github.com/liqiaolin520/springboot-ureport/blob/master/LICENSE</url>
+			<url>https://github.com/brken/springboot-ureport/blob/master/LICENSE</url>
 		</license>
 	</licenses>
-
-	<developers>
-		<developer>
-			<name>qiaolin</name>
-			<email>992004863@qq.com</email>
-		</developer>
-	</developers>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -62,7 +55,7 @@
 		<dependency>
 			<groupId>com.bstek.ureport</groupId>
 			<artifactId>ureport2-console</artifactId>
-			<version>${ureport2.version}</version>
+			<version>2.2.9</version>
 		</dependency>
 
 		<dependency>
