@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>indi</groupId>
-	<artifactId>test-spring-boot</artifactId>
+	<artifactId>custom-printing</artifactId>
 	<version>1.0</version>
 
-	<name>springboot-ureport</name>
+	<name>custom-printing</name>
 	<description>测试ureport集成springboot</description>
 	<url>https://github.com/brken/springboot-ureport</url>
 
